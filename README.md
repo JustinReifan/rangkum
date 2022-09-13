@@ -111,3 +111,100 @@ menerapkan tehnik kompresi lossy dan lossless, serta penggunaan ROI coding (regi
 
 proyek untuk membuat sistem pengkodean baru untuk beberapa jenis gambar yang berbeda beda (bi-level,greylevel,colour,multi component)
 
+kelebihan JPEG 2000 :
+a. dapat digunakan pada bit-rate rendah sehingga dapat digunakan untuk network image dan sensing
+b. menggunakan lossy dan loseless tergantung kebutuhan bandwidth,loseless digunakan untuk medical image
+c. transmisi progresif ,akurasi dan resolusi pixel tinggi
+d. menggunakan region of interest (ROI)
+kekurangan JPEG 2000:
+a. hasil kompresi dari lossless compresionnya bagus walaupun tidak sebagus (bagus dlm arti file yg lebi kecil) lossy compresion
+b. memiliki performansi yg rendah pada citra yg berkorelasi rendah
+
+3. Graphics Interchange Format (GIF)
+GIF adlaah gambar dengan 8 bit warna, yg menggunakan palet warna standar sebanyak 256 jenis warna.
+merupakan salah satu format gambar yg paling umum digunakan untuk desain web.
+GIF memiliki kombinasi warna yg lebi sediit dibanding JPEG
+GIF dapat menyimpan grafis dengan latar blkng transparan atau dalam bentuk animasi sederhana.
+GIF bisa digunaakn untuk menjaga baris tipografi tetap rapi,bentuk geometri
+sebaiknya menggunakan format yg diperuntukan untuk vektor grafis seperti SVG
+
+GIF mengkompresi file dengan tehnik lossless copmpression yg memiliki kemampuan untuk memperkecil besarnya jumlah file tanpa menghilangkan data, sehingga tidak mengurangi kualitas dari gambar.
+
+GIF cocok digunakan untuk :
+a. gambar dgn jumlah warna sdkit (<256 warna(
+b. gambar yg memerlukan perbedaan warna yg tegas
+c. menyimpan grafis dengan latar transparan
+d. mendukung bentuk animasi sederhana
+tidak cocok digunakan untuk :
+a. gambar yg memiliki banyak warna 
+b. gambar yg di dalamnya terdapat warna gradasi.
+
+4. Portable Network Graphics (PNG)
+Lebih baik 5-25% dibanding GIF
+CUKUP BESAR UKURANNYA dibanding JPG & GIF
+PNG termasuk kelas 24-bit, memiliki sifat transparan yg tidak pecah2
+juga mendukung kelas 8 bit seperti GIF , sekaligus 24 bit seperti JPG.
+
+kelebihan PNG : 
+Warna transparan & alpha 
+
+cocok digunakan untuk gambar yg memiliki warna byk dan gambar yg mau di edit ulg tanpa menurunkan kualitas.
+tidak cocok digunakan untuk gambar yg jika di kompres dengan JPG hampir tidak terlihat penurunan kualitasnya.
+
+5. Bitmap (BMP)
+bitmap/raster adalah representasi dari citra grafis yang erdiri atas susunan titik (pixel) yang tersimpan di memori komputer.
+semakin besar resolusi gambar, akan semakin besar pula ukuran filenya
+
+pixel adalah jika gambar diperbesar dengan perbandingan yg cukup besar,maka gambar akan tampak kurang halus atau pecah,sehingga mengurangi detailnya,tidak tajam lagi dan terkesan membentuk kotak2
+
+format file bitmap yg populer : BMP,PCX, dan TIFF
+contoh software basis bitmap : adobe photoshop,paint,corelphotopaint
+
+6. Tagged Image Format File (TIFF)
+TIFF biasa digunakan untuk kebutuhan percetakan dengan kualitas gambar yg sangat tinggi sehingga ukuran berkas untuk format ini biasanya sangat besar, karena dalam file ini gambar tidak di kompresi.
+mampu menyimpan gambar dengan kualitas hingga 32 bit.
+dapat digunakan untuk keperluan pertukaran antar platform,transfer antar program.
+
+Keunggulan format TIFF adalah mampu menyeimbangkan antar kualitas gambar dan ukuran file dan dapat diterima oleh berbagai aplikasi grafis.
+kekurangan TIFF adalah ukuran filenya yg masih terlalu besar untuk keperluan sharing dan preview gambar.
+
+7. Photoshop Document (PSD)
+adalah format penyimpanan asli dari adobe photoshop.
+mampu menyimpan seluurh informasi dari gambar yg sedang dikerjakan, seperti layer,style dan filter.
+karena seluurh informasi tsb disimpan dalam format PSD, maka ukuran file menjadi sangat besar.
+Cocok digunakan untuk editing gambar. file PSD tidak akan mengubah kualitas gambar. File PSD hanya dapat dibuka oleh photoshop , tidak dapat dibuka oleh program lain.
+
+8. Encapsuled Postcript (EPS)
+format EPS sering digunakan untuk pertukaran dokumen antar program grafis, juga digunakan untuk mencetak gambar.
+format EPS menggunakan bahasa postscript,sehingga semua program persiapan cetak dapat mengenali format ini.
+format EPS berbasis vektor, jadi sebagian besar aplikasi desain dapat menghasilkan dan mengeditnya.
+Mampu menyimpan gmabar dengan sistem RGB,CMYK,Lab,Duotune,Grayscale,Index Color serta bitmap
+Namun tidak dapat menyimpan alpa channel
+
+9. Corel draw(CDR)
+CDR adalah ekstensi file yg dibuat dengan menggunakan software coreldraw
+berbasis vektor
+
+10. RAW
+RAW adalah sebuah format file yg dihasilkan oleh kamera digital yg masih berupa file mentah.
+
+Kelemahan : 
+memiliki ukuran yg besar karena file tsb belom di proses dan dikompresi oleh prosesor,sehingga file RAW bisa mencapai 3-4 kali lipat dari ukuran file JPEG.
+Tidak bisa dibuka oleh semua program pengolah foto, bisa dari picasa atau adobe photoshop
+Kelebihan :
+semua data ditangkap oleh lensa dan sensor kamera disimpan secara utuh dan memiliki banyak detail. 
+Sehingga file RAW memberikan ruang bagi fotografer untuk berekspresi dan dapat melakukan pengeditan foto seperti mengurangi overexposed atau underexposed dan mudah melakukan pengeditan white balance.
+
+Kekurangan file RAW :
+a. memakan kapasitas hardisk dan memory card
+b. memakan waktu lebih banyak
+c. ukuran yg besar mebuat memori dan hard disk cepat penuh
+d. perlu komputer dengan spesifikasi penuh
+e. memakan waktu lama untuk mengolah banyak foto
+f. perlu software khusus untuk mengolah RAW
+g. setiap ada kamera baru perlu mendownload database camera RAW yang sesuai.
+
+FORMAT GAMBAR BITMAP ADALAH REPRESENTASI DARI CITRA GRAFIS YANG TERDIRI DARI SUSUNAN TITIK (PIXEL) YANG TERSIMPAN DI MEMORI KOMPUTER,
+YANG JIKA DIPERBESAR GAMBARYA, MAKA GAMBAR AKAN TERLIHAT PECAH DAN TIDAK SEBAGUS GAMBAR ASLINYA
+
+FORMAT GAMBAR VEKTOR ADALAH GAMBAR YG DICIPTAKAN DARI GARIS,BENTUK,BIDANG,DAN WARNA,YANG JIKA DI PERBESAR UKURAN GAMBARNYA,KUALITAS GAMBARNYA MASIH BAGUS SEBAGUS GAMBAR ASLINYA
